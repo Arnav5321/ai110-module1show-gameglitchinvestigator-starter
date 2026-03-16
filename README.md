@@ -25,13 +25,16 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [The app is a simple number-guessing game where the player tries to guess a secret number within a limited number of attempts. It provides feedback after each guess to help the player narrow down the correct number.] 
+Describe the game's purpose.
+- [The hint messages were reversed: when the guess was too high, it said to go higher instead of lower and vice versa.] 
+Detail which bugs you found.
+- [Refactored core game logic into `logic_utils.py`, Fixed the hint logic so "Too High" now shows "Go LOWER!" and "Too Low" shows "Go HIGHER!", Corrected difficulty ranges so Normal is 1–50 and Hard is 1–100.] 
+Explain what fixes you applied.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [Winning Screenshot] [C:\CodePath\ai110-module1show-gameglitchinvestigator-starter\Win Screenshot.png]
 
 ## 🚀 Stretch Features
 

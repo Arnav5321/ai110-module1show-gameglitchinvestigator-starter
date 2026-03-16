@@ -28,21 +28,29 @@ The AI's suggestion was misleading when changing the values for the "hard" diffi
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
-- Describe at least one test you ran (manual or using pytest)  
-  and what it showed you about your code.
-- Did AI help you design or understand any tests? How?
+I decided whether a bug was really fixed by running the code again and testing it. 
 
+- Describe at least one test you ran (manual or using pytest) and what it showed you about your code.
+Using pytest, I tested whether the hints were fixed, and whether the difficulties(normal and hard) were fixed.
+
+- Did AI help you design or understand any tests? How?
+The AI helped to design the pytests. It is good at creating regular tests for the ordinary cases.
 ---
 
 ## 4. What did you learn about Streamlit and state?
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
-
+Streamlit "reruns" happens every times the user interact with the app. So every click, the entire Python script runs everything from the start. The state is the way to store the data in a persistent fashion even though the app is constantly being rerun. This is important for remembering stuff like the attempt count.
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
+One strategy I want to reuse in future labs and projects is making tests. Making tests and testing after code changes ensures accuracy and reliability.
+
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
+One thing I would do differently is to ask for more detailed explanations to understand more about the AIs understanding on a topic. Doing this would save resources and time.
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+AI generated code is a great starting point, but isn't the end-all be-all, testing is important.
